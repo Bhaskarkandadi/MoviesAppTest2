@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MoviesAppTestSuite">
+    <test name="TestingMoviesApp" parallel= "classes" thread-count="5">
+        <classes>
+            <class name="LoginPageTest"/>
+            <class name="HomePageTest"/>
+            <class name="HeaderSectionTest"/>
+            <class name="PopularPageTest"/>
+            <class name="SearchPageTest"/>
+            <class name="MovieDetailsPageTest"/>
+            <class name="AccountPageTest"/>
+        </classes>
+    </test>
+</suite>
